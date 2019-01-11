@@ -1,0 +1,36 @@
+{
+  "name": "makanaltech-libraries-standard-entities",
+  "version": "0.0.0",
+  "description": "MakanalTech StandardEntities Library",
+  "main": "index.js",
+  "author": "Kane McConnell <kane@makanal.eu>",
+  "license": "MIT",
+  "directories": {
+    "lib": "./lib",
+    "doc": "./doc",
+    "example": "./example",
+    "test": "./test"
+  },
+  "types": "./index",
+  "scripts": {
+    "build": "rimraf ./lib/ && tsc -p .",
+    "readme": "rm ./README.md && node ./node_modules/.bin/node-readme",
+    "package": "npm run build && npm run readme"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/makanaleu/makanaltech-libraries-standard-entities.git"
+  },
+  "bugs": {
+    "url": "https://github.com/makanaleu/makanaltech-libraries-standard-entities/issues"
+  },
+  "homepage": "https://github.com/makanaleu/makanaltech-libraries-standard-entities#readme",
+  "devDependencies": {
+    "@types/node": "latest",
+    "tslint": "latest",
+    "ts-node": "latest",
+    "typescript": "latest",
+    "node-readme": "latest",
+    "rimraf": "2.6.2"
+  }
+}
