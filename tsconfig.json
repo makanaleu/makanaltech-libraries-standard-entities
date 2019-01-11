@@ -1,11 +1,26 @@
 {
+  "compileOnSave": true,
   "compilerOptions": {
     "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitUseStrict": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
     "target": "es6",
-    "lib": ["es6"],
+    "rootDir": "src/",
+    "outDir": "./",
+    "emitBOM": true,
+    "charset": "utf8",
     "sourceMap": true
   },
+  "include": [
+    "src/**/*.ts"
+  ],
   "exclude": [
-    "node_modules"
+    "node-modules"
   ]
 }

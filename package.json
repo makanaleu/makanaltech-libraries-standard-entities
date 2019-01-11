@@ -1,6 +1,6 @@
 {
   "name": "makanaltech-libraries-standard-entities",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "MakanalTech StandardEntities Library",
   "main": "index.js",
   "author": "Kane McConnell <kane@makanal.eu>",
